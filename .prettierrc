@@ -1,0 +1,27 @@
+{
+  "endOfLine": "auto",
+  "trailingComma": "none",
+  "bracketSameLine": false,
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "useTabs": false,
+  "quoteProps": "as-needed",
+  "semi": true,
+  "singleQuote": true,
+  "singleAttributePerLine": false,
+  "htmlWhitespaceSensitivity": "css",
+  "printWidth": 150,
+  "tabWidth": 2,
+  "plugins": ["prettier-plugin-organize-imports", "prettier-plugin-tailwindcss", "@prettier/plugin-php"],
+  "tailwindFunctions": ["cn", "classnames", "classNames", "clsx", "ctl", "cva", "tv"],
+  "tailwindStylesheet": "resources/css/app.css",
+  "organizeImportsSkipDestructiveCodeActions": true,
+  "overrides": [
+    {
+      "files": "Makefile",
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ]
+}
